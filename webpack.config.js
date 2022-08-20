@@ -37,6 +37,10 @@ module.exports = {
             {
                 use: 'pug-loader',
                 test: /\.pug$/,
+            },
+            {
+                use: 'ts-loader',
+                test: /\.ts$/,
             }
         ]
     },
